@@ -22,3 +22,19 @@ gleam add hello_gleam
 ```
 
 and its documentation can be found at <https://hexdocs.pm/hello_gleam>.
+
+## Deployment
+
+Deploying on [Fly.io](https://fly.io):
+
+### Install
+
+```sh
+curl -L https://fly.io/install.sh | sh
+```
+
+### Deploy
+
+```sh
+flyctl launch
+```
