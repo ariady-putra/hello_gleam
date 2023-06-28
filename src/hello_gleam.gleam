@@ -10,6 +10,6 @@ pub fn main() {
 }
 
 fn web_service(_request) {
-  let body = bit_builder.from_string("Hello, Gleam!")
+  let body = bit_builder.from_string("Update, Gleam!")
   Response(200, [], body)
 }

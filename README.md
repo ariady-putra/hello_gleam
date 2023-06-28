@@ -38,3 +38,9 @@ curl -L https://fly.io/install.sh | sh
 ```sh
 flyctl launch
 ```
+
+To deploy future versions of the application run `flyctl deploy` after saving any changes to the source code.
+
+### Next steps
+
+https://fly.io/docs/speedrun/#next-steps
